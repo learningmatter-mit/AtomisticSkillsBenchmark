@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Harbor job output
+jobs/
+
+# Local AtomisticSkills checkout for with-skill runs
+AtomisticSkills/
+
+# Generated website (published from the gh-pages branch)
+site/
+
+.DS_Store

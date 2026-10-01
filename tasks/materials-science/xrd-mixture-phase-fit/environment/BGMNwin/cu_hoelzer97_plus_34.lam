@@ -1,0 +1,24 @@
+% cited from:
+%G. Hoelzer, M. Fritsch, M. Deutsch, J. Haertwig, and E. Foerster
+%Kalpha1,2 and Kbeta1,3 x-ray emission lines of the 3d transition metals
+%Phys. Rev. A 56 (1997) 4554-4568
+%
+%Kalpha3,4 added following
+%M. Fritsch, C. C. Kao, K. Haemaelaeinen, O. Gang,E. Foerster and M. Deutsch
+%Evolution of the Cu Kalpha3,4 satellites from treshold to saturation
+%Phys. Rev. A 57 (1998), 1686-1697
+%
+% Comment: Used values at 10080 eV excitation energy, the I0 from alpha'3
+% for the last column (10250 eV) seems to be misprinted
+% The total amount of Kalpha34 intensity was set to 0.63% of alpha1,
+% as cited from the second article (high energy limit).
+%
+ILAM=8
+0.579*ifthenelse(ifdef(alpha2ratio),1/(0.659*(1+alpha2ratio)),1) 6.491016 0.0009215
+0.080*ifthenelse(ifdef(alpha2ratio),1/(0.659*(1+alpha2ratio)),1) 6.489024 0.001354
+0.236*ifthenelse(ifdef(alpha2ratio),alpha2ratio/(0.341*(1+alpha2ratio)),1) 6.475011 0.001075
+0.105*ifthenelse(ifdef(alpha2ratio),alpha2ratio/(0.341*(1+alpha2ratio)),1) 6.473809 0.001440
+0.00067 6.52301 0.00113
+0.00193 6.51938 0.00247
+0.00131 6.51487 0.00331
+0.00024 6.50882 0.00127

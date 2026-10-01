@@ -1,0 +1,12 @@
+% cited from:
+%J. H"artwig, G. H"olzer, J. Wolf and E. F"orster
+%Remeasurement of the Profile of the Characteristic Cu Kalpha Emission Line
+%with High Precision and Accuracy
+%J. Appl. Cryst. 26 (1993) 539-548
+%
+%Data are those measured with single crystal spectrometer
+ILAM=4
+0.5755*ifthenelse(ifdef(alpha2ratio),(1-alpha2ratio)/0.6583,1) 6.491017 0.000911
+0.0828*ifthenelse(ifdef(alpha2ratio),(1-alpha2ratio)/0.6583,1) 6.489051 0.001363
+0.2382*ifthenelse(ifdef(alpha2ratio),alpha2ratio/0.3417,1) 6.475034 0.001093
+0.1035*ifthenelse(ifdef(alpha2ratio),alpha2ratio/0.3417,1) 6.473780 0.001387

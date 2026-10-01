@@ -1,0 +1,13 @@
+% cited from:
+%G. Hoelzer, M. Fritsch, M. Deutsch, J. Haertwig, and E. Foerster
+%Kalpha1,2 and Kbeta1,3 x-ray emission lines of the 3d transition metals
+%Phys. Rev. A 56 (1997) 4554-4568
+%
+ILAM=7
+0.378 4.367389 0.0005876
+0.132 4.366764 0.000709
+0.084 4.365672 0.001265
+0.073 4.363928 0.002076
+0.009 4.370155 0.00080
+0.271 4.359869 0.000897
+0.054 4.358607 0.00191
